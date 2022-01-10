@@ -54,9 +54,8 @@ public class ProviderController {
 	}
 	
 	@PostMapping("add")
-	public String addProvider(@Valid Provider provider, 
-							BindingResult result,
-							@RequestParam("files") MultipartFile[] files) {
+	public String addProvider(@Valid Provider provider, BindingResult result,@RequestParam("files") MultipartFile[] files) 
+	{
 	if (result.hasErrors()) {
 		return "provider/addProvider";
 	}
