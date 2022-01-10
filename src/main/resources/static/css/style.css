@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+h1{
+	color :red ;
+}
+
+h3{
+	color :green ;
+}
+table {
+	border-collapse :collapse ;
+}
+
+table th ,table td {
+	padding :5px ;
+};
